@@ -11,6 +11,7 @@ import connectDB from "./infra/database/dbConfig"
 import userRoute from "./interface/routes/user";
 import adminRout from "./interface/routes/admin";
 
+
 const app:Application=express()
 
 app.use(express.json())
